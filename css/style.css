@@ -1,0 +1,52 @@
+th.column1 {
+  font-weight: 400;
+  font-style: italic;
+}
+
+caption {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+table, th, td {
+  border-style: solid;
+}
+
+th, td {
+  border-width: thin;
+  padding: 5px;
+}
+
+tbody>tr:nth-of-type(odd) {
+  background-color: lightgreen;
+}
+
+tbody>tr:nth-of-type(even) {
+  background-color: lightblue;
+}
+
+.outer-content {
+  alignment: left;
+  margin-top: 20px;
+  background-color: pink;
+  width: 75%;
+  height: 30px;
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.inner-content {
+  background-color: lightblue;
+  margin: auto;
+  width: 75%;
+  text-align: center;
+}
+
+input {
+  margin: 5px;
+}
+
+form {
+  margin-top: 15px;
+}

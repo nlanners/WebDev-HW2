@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LannersN HW2:HTML/CSS</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+
+<!-- TABLE -->
+  <table>
+    <caption>Jazz Musicians by Instrument</caption>
+    <thead>
+    <tr>
+        <th></th>
+        <th>Trumpet</th>
+        <th>Trombone</th>
+        <th>Saxophone</th>
+        <th>Piano</th>
+        <th>Drums</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th class="column1">Musician 1</th>
+        <td>Louis Armstrong</td>
+        <td>Carl Fontana</td>
+        <td>Charlie Parker</td>
+        <td>Duke Ellington</td>
+        <td>Max Roach</td>
+      </tr>
+      <tr>
+        <th class="column1">Musician 2</th>
+        <td>Dizzy Gillespie</td>
+        <td>Trombone Shorty</td>
+        <td>John Coltrane</td>
+        <td>Thelonious Monk</td>
+        <td>Art Blakey</td>
+      </tr>
+      <tr>
+        <th class="column1">Musician 3</th>
+        <td>Miles Davis</td>
+        <td>Wycliffe Gordon</td>
+        <td>Eric Marienthal</td>
+        <td>Herbie Hancock</td>
+        <td>Buddy Rich</td>
+      </tr>
+      <tr>
+        <th class="column1">Musician 4</th>
+        <td>Arturo Sandoval</td>
+        <td>J.J. Johnson</td>
+        <td>Sonny Rollins</td>
+        <td>Chick Corea</td>
+        <td>Tony Williams</td>
+      </tr>
+      <tr>
+        <th class="column1">Musician 5</th>
+        <td>Wynton Marsalis</td>
+        <td>Stan Getz</td>
+        <td>Glenn Miller</td>
+        <td>Dave Brubeck</td>
+        <td>Elvin Jones</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2">Other Jazz Instruments</td>
+        <td colspan="4">Bass, Guitar, Vibrophone</td>
+      </tr>
+    </tfoot>
+  </table>
+
+<!-- LIST -->
+<h2>Periods in Jazz History</h2>
+<ol>
+  <li>Ragtime</li>
+  <li>Blues</li>
+  <li>Dixieland</li>
+  <li>Big Band</li>
+  <li>Bebop</li>
+  <li>Cool Jazz</li>
+  <li>Latin Influenced Jazz</li>
+  <li>Free Jazz</li>
+  <li>Jazz-Rock</li>
+</ol>
+
+<!-- NESTED DIVS -->
+<div class="outer-content">
+  <div class="inner-content">Below Are Some Forms</div>
+</div>
+
+<!-- FORMS -->
+<form action="https://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php"
+      method="get"
+      name="GET Form">
+  <fieldset>
+    <legend>GET Form</legend>
+    <fieldset>
+    <legend>Input Fields</legend>
+      <label>Name:
+        <input type="text" name="text_input" size="30" maxlength="100">
+      </label>
+      <br />
+      <label>Year of Birth:
+        <input type="number" name="numerical_input" size="30" maxlength="4">
+      </label>
+      <br />
+      <label>Password:
+        <input type="password" name="password_input" size="30" maxlength="100">
+      </label>
+    </fieldset>
+    <br />
+    <fieldset>
+      <legend>Radio Inputs</legend>
+      <h3>Pick Your Favorite Candy</h3>
+      <label>
+        <input type="radio" name="candy" value="Snickers" />Snickers</label>
+      <br />
+      <label>
+        <input type="radio" name="candy" value="Skittles" />Skittles</label>
+      <br />
+      <label>
+        <input type="radio" name="candy" value="Mentos" />Mentos</label>
+      <br />
+      <input type="submit" value="Submit Form" />
+    </fieldset>
+  </fieldset>
+</form>
+
+<form action="https://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php"
+      method="post"
+      name="POST Form">
+  <fieldset>
+    <legend>POST Form</legend>
+    <fieldset>
+    <legend>Input Fields</legend>
+      <label>Name:
+        <input type="text" name="text_input" size="30" maxlength="100">
+      </label>
+      <br />
+      <label>Year of Birth:
+        <input type="number" name="numerical_input" size="30" maxlength="4">
+      </label>
+      <br />
+      <label>Password:
+        <input type="password" name="password_input" size="30" maxlength="100">
+      </label>
+    </fieldset>
+    <br />
+    <fieldset>
+      <legend>Radio Inputs</legend>
+      <h3>Pick Your Favorite Candy</h3>
+      <label>
+        <input type="radio" name="candy" value="Snickers" />Snickers</label>
+      <br />
+      <label>
+        <input type="radio" name="candy" value="Skittles" />Skittles</label>
+      <br />
+      <label>
+        <input type="radio" name="candy" value="Mentos" />Mentos</label>
+      <br />
+      <input type="submit" value="Submit Form" />
+    </fieldset>
+  </fieldset>
+</form>
+
+</body>
+</html>
+
